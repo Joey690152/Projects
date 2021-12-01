@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+:root {
+  --background: #C4E4E7;
+  --text: hsl(172, 67%, 45%);
+  --very-dark-cyan: hsl(183, 100%, 15%);
+  --dark-cyan: hsl(186, 14%, 43%);
+  --dark-grayish-cyan: hsl(184, 14%, 56%);
+  --light-cyan: hsl(185, 41%, 84%);
+  --light-grayish-cyan: hsl(189, 41%, 97%);
+  --white: hsl(0, 0%, 100%);
+  --font-size: 24px;
+  --font-family: 'Space Mono', monospace;
+  --font-400: 400;
+  --font-500: 500;
+  --font-700: 700;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+}
+
+.title {
+  text-align: center;
+  margin-top: 5em;
+  margin-bottom: 2em;
+  font-family: var(--font-family);
+  letter-spacing: 6px;
+  font-weight: var(--font-400);
+}
+
+.main-container {
+  margin: 0 auto;
+  background-color: var(--white);
+  font-family: var(--font-family);
+  display: flex;
+  border-radius: 15px;
+  max-width: 600px;
+}
+
+.left-column {
+  margin: 2em 1em;
+}
+
+.total-cost {
+  margin-bottom: 1em;
+}
+
+.total-cost p {
+  margin-bottom: 0.5em;
+}
+
+.left-column input {
+  border: none;
+  background-color: var(--light-cyan);
+  padding: 4px;
+  width: 100%;
+  border-radius: 2px;
+}
+
+.left-column p {
+  color: var(--dark-cyan);
+  font-size: 0.8rem;
+}
+
+.select-tip {
+  margin-bottom: 1em;
+}
+
+.select-tip p {
+  margin-bottom: 0.5em;
+  
+}
+
+.tip-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr)); 
+  gap: 0.5em;
+
+}
+
+.tip-grid button {
+  padding: 5px 10px;
+  border: none;
+  font-family: var(--font-family);
+  background-color: var(--very-dark-cyan);
+  color: var(--white);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.right-column {
+  background-color: var(--very-dark-cyan);
+  margin: 2em 1em;
+  border-radius: 5px;
+  width: 320px;
+}
+
+.tip-amount, .total-per-person {
+  display: flex;
+  margin: 1em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tip-amount p {
+  color: var(--white);
+  font-size: 0.8rem;
+}
+
+.total-per-person p {
+  color: var(--white);
+  font-size: 0.8rem;
+}
+
+.tip-amount span {
+  opacity: 40%;
+}
+
+.total-per-person span {
+  opacity: 40%;
+}
+
+.tip-amount h1 {
+  color: var(--text);
+}
+
+.total-per-person h1 {
+  color: var(--text);
+  margin-bottom: 1em;
+}
+
+.right-column button {
+  position: relative;
+  width: 80%;
+  left: 30px;
+  right: 30px;
+  padding: 7px;
+  border-radius: 5px;
+  border: none;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 1;
+  background-color: var(--light-grayish-cyan);
+}
+
+
+
