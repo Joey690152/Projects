@@ -1,0 +1,121 @@
+
+:root {
+  --CTA-text: hsl(356, 100%, 66%);
+  --CTA-hover-background: hsl(355, 100%, 74%);
+  --headings: hsl(208, 49%, 24%);
+  --text: hsl(0, 0%, 100%);
+  --footer-text: hsl(240, 2%, 79%);
+  --body-copy: hsl(207, 13%, 34%);
+  --footer-background: hsl(240, 10%, 16%);
+  --nav-gradient-light-red: hsl(13, 100%, 72%);
+  --nav-gradient-red: hsl(353, 100%, 62%);
+  --bg-gradient-grey-blue: hsl(237, 17%, 21%);
+  --bg-gradient-blue: hsl(237, 23%, 32%);
+
+  --overpass-font: 'Overpass', sans-serif;
+  --ubuntu-font: 'Ubuntu', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+.header-container {
+  padding: 2em 4em;
+}
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+header .navbar .nav {
+  display: flex;
+}
+
+header .navbar .nav .nav-links {
+  display: flex;
+  align-items: center;
+}
+
+header .navbar .nav .nav-links {
+  list-style: none;
+}
+
+header .navbar img {
+  margin-right: 16px;
+}
+
+header .navbar a {
+  list-style: none;
+  text-decoration: none;
+  color: var(--text);
+  font-family: var(--ubuntu-font);
+  padding: 16px;
+}
+
+header {
+ height: 40vh;
+  border-bottom-left-radius: 70px;
+  background: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+}
+
+header .cta .sign-up  {
+  margin-left: 20px;
+  background-color: var(--text);
+  padding: 10px 30px;
+  border-bottom-left-radius: 16px;
+  border-top-right-radius: 16px;
+  color: var(--nav-gradient-red)
+}
+
+.main-hero {
+  text-align: center;
+  margin: 5em;
+  font-family: var(--overpass-font);
+}
+
+.main-hero h1 {
+  font-size: 2.5rem;
+  color: var(--text);
+}
+
+.main-hero p {
+  margin-top: 1em;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.main-hero .buttons {
+  margin-top: 2.5em;
+}
+
+.buttons .startBtn, .learnBtn {
+  text-decoration: none;
+}
+
+.buttons .startBtn {
+  background-color: var(--text);
+  padding: 8px 18px;
+  border-bottom-left-radius: 16px;
+  border-top-right-radius: 16px;
+  color: var(--nav-gradient-red)
+}
+
+.buttons .learnBtn {
+  border: 2px solid var(--text);
+  padding: 8px 18px;
+  margin-left: 0.5em;
+  border-top-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  color: var(--text);
+}
+
+
