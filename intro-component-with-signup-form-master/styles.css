@@ -1,0 +1,113 @@
+
+:root {
+  --primary-red: hsl(0, 100%, 74%);
+  --primary-green: hsl(154, 59%, 51%);
+  --accent-blue: hsl(248, 32%, 49%);
+  --neutral-darkblue: hsl(249, 10%, 26%);
+  --neutral-greyblue: hsl(246, 25%, 77%);
+
+  --poppins-font: 'Poppins', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./images/bg-intro-mobile.png);
+  background-color: var(--primary-red);
+  font-family: var(--poppins-font);
+}
+
+.main-container {
+  margin: 4em 1em;
+  text-align: center;
+}
+
+.main-container .text-content {
+  color: snow;
+}
+
+.main-container .text-content h1 {
+  margin: 0 2em 1em 2em;
+}
+
+.main-container .text-content p {
+  margin: 0 2em 0 2em;
+}
+
+.right-content {
+  margin: 2em 4em 1em 4em;
+}
+
+.right-title {
+  background-color: var(--accent-blue);
+  border-radius: 5px;
+  color: snow;
+  font-size: 0.8rem;
+  padding: 20px;
+  -webkit-box-shadow: 0 12px 6px -6px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 12px 6px -6px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 12px 6px -6px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.right-title p {
+  margin: 0 4em;
+}
+
+.right-title span {
+  font-weight: 700;
+}
+
+.form {
+  margin-top: 1em;
+  background-color: snow;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 12px 6px -6px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 12px 6px -6px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 12px 6px -6px rgba(0, 0, 0, 0.4);
+}
+
+.form-container {
+  margin: 1em
+}
+
+.form-container input {
+  margin-top: 1em;
+  padding: 15px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid rgb(224, 224, 224);
+}
+
+.form-container .btn {
+  text-decoration: none;
+  background-color: var(--primary-green);
+  padding: 15px;
+  margin-top: 1em;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.form-container .btn a {
+  color: snow;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.form-container p {
+  font-size: 0.6rem;
+  margin: 1em 3em 3em 3em;
+  color: gray;
+  text-align: center;
+}
+
+.form-container span {
+  color: var(--primary-red);
+  font-weight: bold;
+}
+
