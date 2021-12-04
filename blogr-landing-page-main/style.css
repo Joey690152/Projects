@@ -118,4 +118,64 @@ header .cta .sign-up  {
   color: var(--text);
 }
 
+.main .main-container {
+  padding: 4em 0 4em 2em;
+  font-family: var(--overpass-font);
+  position: relative;
+}
+
+.main .main-container .title h2{
+  text-align: center;
+  margin-top: 1.5em;
+  font-size: 2rem;
+  color: var(--headings);
+  position: relative;
+  z-index: -1;
+}
+
+.main .main-content {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+
+.main {
+  overflow: hidden;
+}
+
+.main .main-content img {
+ position: relative;
+ height: 700px;
+ right: -80px;
+ top: -100px;
+ z-index: 3;
+}
+
+
+.main .main-content .left-column {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5em;
+  margin-left: 12em;
+}
+
+.main .main-content .left-column span {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--headings);
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.main .main-content .left-column p {
+  font-size: 0.8rem;
+  margin-bottom: 4em;
+  color: var(--body-copy);
+}
+
+.under-main {
+  background-color: var(--bg-gradient-blue);
+  width: 100%;
+  display: flex;
+}
 
